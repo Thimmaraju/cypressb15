@@ -7,7 +7,7 @@ module.exports = defineConfig({
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
   
-    "specPattern": "**/*.feature",
+    //"specPattern": "**/*.feature",
     "projectId": "o9asqr",
     "excludeSpecPattern": "cypress/e2e/cypresshooks.cy.js",
     "video":true,
