@@ -5,6 +5,12 @@ class addEmployeePage{
         return 'Add Employee'
     }
 
+    
+    addEmployeeSubMenuItem(){
+
+        return 'Add Employee'
+    }
+
     firstNameInput(){
 
         return 'input[name="firstName"]'
@@ -30,7 +36,7 @@ class addEmployeePage{
 
         cy.contains(this.addEmployeeSubMenuItem()).click()
 
-        cy.get(this.firstNameInput()).type(firstname)
+        cy.get(this.firstNameInput()).type(firstname )
 
         cy.get(this.lastNameInput()).type(lastname)
 
