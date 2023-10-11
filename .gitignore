@@ -1,0 +1,6 @@
+node_modules
+cypress/Girish
+package-lock.json
+cypress/videos
+cypress/screenshots
+cypress/reports
